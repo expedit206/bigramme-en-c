@@ -28,7 +28,9 @@ for(i=0 ; i < strlen(nom) ; i++){
         tab[i][0] = nom[i];
         tab[i][1] = nom[i+1];
 }
+
 nbr=0;
+
 for(i=0; i <= strlen(nom); i++){
     
 if(tab[i][0]==bigram[0] && tab[i][1]==bigram[1]){
