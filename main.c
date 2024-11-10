@@ -34,6 +34,7 @@ nbr=0;
 for(i=0; i <= strlen(nom); i++){
     
 if(tab[i][0]==bigram[0] && tab[i][1]==bigram[1]){
+        
         nbr++;
 }
 }
